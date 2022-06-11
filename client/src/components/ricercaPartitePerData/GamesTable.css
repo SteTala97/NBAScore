@@ -1,0 +1,17 @@
+.notStartedGamesTable{
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.finishedGamesTable{
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.team-logo {
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}

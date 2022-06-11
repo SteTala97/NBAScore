@@ -1,0 +1,19 @@
+image: node:latest
+
+stages:          # List of stages for jobs, and their order of execution
+  - test
+
+client-test-job:   # This job runs in the test stage.
+  stage: test    # It only starts when the job in the build stage completes successfully.
+  script:
+    - cd ./client/
+    - npm install
+    - npm test
+
+server-test-job:   # This job runs in the test stage.
+  stage: test    # It only starts when the job in the build stage completes successfully.
+  script:
+    - cd ./server/
+    - npm install
+    - npm install --global mocha
+    - npm test

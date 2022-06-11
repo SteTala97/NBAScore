@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test rendering componenti WinningTeam Snapshot componente WinningTeamSearch 1`] = `
+<div
+  className="search-menu"
+>
+  <form
+    className="select"
+  >
+    <select
+      data-testid="teamToSearch"
+      id="teamToSearch"
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        selected={true}
+        value=""
+      >
+        Select Team
+      </option>
+    </select>
+  </form>
+  <form
+    className="select"
+  >
+    <select
+      data-testid="seasonToSearch"
+      id="seasonToSearch"
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        selected={true}
+        value=""
+      >
+        Select Season
+      </option>
+    </select>
+  </form>
+  <button
+    className="search-button"
+    id="search-button"
+    onClick={[Function]}
+  >
+    Search
+  </button>
+</div>
+`;
+
+exports[`Test rendering componenti WinningTeam Snapshot componente WinningTeamTable 1`] = `""`;
+
+exports[`Test rendering componenti WinningTeam Snapshot componente WinningTeamView 1`] = `
+<Fragment>
+  <WinningTeamSearch
+    playerId={0}
+    playerInfo={false}
+    searchStarted={false}
+    season={0}
+    seasonError={null}
+    seasons={Array []}
+    setPlayerId={[Function]}
+    setPlayerInfo={[Function]}
+    setSearchStarted={[Function]}
+    setSeason={[Function]}
+    setSeasonError={[Function]}
+    setSeasons={[Function]}
+    setStatistics={[Function]}
+    setStatisticsError={[Function]}
+    setTeam={[Function]}
+    setTeamError={[Function]}
+    setTeams={[Function]}
+    setWinningGames={[Function]}
+    setWinningGamesError={[Function]}
+    statistics={Array []}
+    statisticsError={null}
+    team=""
+    teamError={null}
+    teams={Array []}
+    winningGames={Array []}
+    winningGamesError={null}
+  />
+  <WinningTeamTable
+    playerId={0}
+    playerInfo={false}
+    searchStarted={false}
+    season={0}
+    seasonError={null}
+    seasons={Array []}
+    setPlayerId={[Function]}
+    setPlayerInfo={[Function]}
+    setSearchStarted={[Function]}
+    setSeason={[Function]}
+    setSeasonError={[Function]}
+    setSeasons={[Function]}
+    setStatistics={[Function]}
+    setStatisticsError={[Function]}
+    setTeam={[Function]}
+    setTeamError={[Function]}
+    setTeams={[Function]}
+    setWinningGames={[Function]}
+    setWinningGamesError={[Function]}
+    statistics={Array []}
+    statisticsError={null}
+    team=""
+    teamError={null}
+    teams={Array []}
+    winningGames={Array []}
+    winningGamesError={null}
+  />
+</Fragment>
+`;

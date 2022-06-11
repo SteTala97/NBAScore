@@ -1,0 +1,1382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots testing GameInfo renders correctly 1`] = `
+<p
+  className="no-data-message"
+>
+  Game statistics not currently available
+</p>
+`;
+
+exports[`Snapshots testing GameInfo with TeamInfo renders correctly 1`] = `
+<p
+  className="no-data-message"
+>
+  Game statistics not currently available
+</p>
+`;
+
+exports[`Snapshots testing GameInfoGeneralInfo renders correctly when there is data 1`] = `
+<ForwardRef(TableContainer)>
+  <ForwardRef(Table)
+    aria-label="simple table"
+    className="gameInfoTable"
+    sx={
+      Object {
+        "maxWidth": 1000,
+        "minWidth": 650,
+      }
+    }
+  >
+    <ForwardRef(TableHead)>
+      <ForwardRef(TableRow)
+        key="1"
+      >
+        <ForwardRef(TableCell)
+          id="title-table-epmty"
+        />
+        <ForwardRef(TableCell)
+          align="center"
+          id="title-table-header"
+        >
+          <strong>
+            Home Team
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="title-table-header"
+        >
+          <strong>
+            Score
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="title-table-header"
+        >
+          <strong>
+            Visitor Team
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="title-table-empty"
+        />
+      </ForwardRef(TableRow)>
+    </ForwardRef(TableHead)>
+    <ForwardRef(TableBody)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-logo"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <img
+            alt="Logo Team"
+            className="team-img selectable-team"
+            onClick={[Function]}
+            src="https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png"
+          />
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-name"
+          sx={
+            Object {
+              "width": "20%",
+            }
+          }
+        >
+          <Team
+            name="Atlanta Hawks"
+          />
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          sx={
+            Object {
+              "width": "20%",
+            }
+          }
+        >
+          108
+              -    
+          117
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-name"
+          sx={
+            Object {
+              "width": "20%",
+            }
+          }
+        >
+          <Team
+            name="Brooklyn Nets"
+          />
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-logo"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <img
+            alt="Logo Team"
+            className="team-img selectable-team"
+            onClick={[Function]}
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+          />
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow) />
+    </ForwardRef(TableBody)>
+  </ForwardRef(Table)>
+  <p
+    className="text-arena"
+  >
+    Arena:
+     Barclays Center, 
+    Brooklyn - 
+    NY
+  </p>
+</ForwardRef(TableContainer)>
+`;
+
+exports[`Snapshots testing GameInfoGeneralInfo renders correctly when there is data 2`] = `
+<ForwardRef(TableContainer)>
+  <ForwardRef(Table)
+    aria-label="simple table"
+    className="gameInfoStatisticsTable"
+    sx={
+      Object {
+        "maxWidth": 1000,
+        "minWidth": 650,
+      }
+    }
+  >
+    <ForwardRef(TableHead)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+          sx={
+            Object {
+              "width": "33%",
+            }
+          }
+        >
+          <img
+            alt="Logo Team"
+            className="team-img"
+            src="https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/Hornets_de_Charlotte_logo.svg/1200px-Hornets_de_Charlotte_logo.svg.png"
+          />
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+          sx={
+            Object {
+              "width": "33%",
+            }
+          }
+        >
+          <strong>
+            Statistics
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+          sx={
+            Object {
+              "width": "33%",
+            }
+          }
+        >
+          <img
+            alt="Logo Team"
+            className="team-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Detroit_Pistons_primary_logo_2017.png/150px-Detroit_Pistons_primary_logo_2017.png"
+          />
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+    </ForwardRef(TableHead)>
+    <ForwardRef(TableBody)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          54
+          /
+          97
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            Field goals
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          48
+          /
+          102
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          55.7
+          %
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            % Field goals
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          47.1
+          %
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          18
+          /
+          42
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            3 pointers
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          12
+          /
+          35
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          42.9
+          %
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            % 3 pointers
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          34.3
+          %
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          15
+          /
+          23
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            Free throws
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          11
+          /
+          18
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          65.2
+          %
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            % Free throws
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          61.1
+          %
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          51
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            Total rebounds
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          45
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          15
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            Offensive rebounds
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          16
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          36
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            Defensive rebounds
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          29
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          36
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            Assists
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          32
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          2
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            Blocks
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          6
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          13
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            Steals
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          10
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          18
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            Turnovers
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          18
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          70
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            Points in the paint
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          52
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          22
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          <strong>
+            Personal fouls
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-team-img"
+        >
+          20
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow) />
+    </ForwardRef(TableBody)>
+  </ForwardRef(Table)>
+</ForwardRef(TableContainer)>
+`;
+
+exports[`Snapshots testing GameInfoGeneralInfo renders correctly when there is no data 1`] = `<div />`;
+
+exports[`Snapshots testing GameInfoGeneralInfo renders correctly when there is no data 2`] = `
+<p
+  className="no-data-message"
+>
+  Game statistics not currently available
+</p>
+`;
+
+exports[`Snapshots testing GameInfoNavBar renders correctly 1`] = `
+<div
+  className="button-statistics"
+>
+  <button
+    className="choose_statistic"
+    onClick={[Function]}
+  >
+    Game Statistics
+  </button>
+  <button
+    className="choose_statistic"
+    onClick={[Function]}
+  >
+    Home Players
+  </button>
+  <button
+    className="choose_statistic"
+    onClick={[Function]}
+  >
+    Visitors Players
+  </button>
+  <button
+    className="choose_statistic"
+    onClick={[Function]}
+  >
+    Cancel View
+  </button>
+</div>
+`;
+
+exports[`Snapshots testing GameInfoPlayers renders correctly when there is data for 'home' team 1`] = `
+<ForwardRef(TableContainer)>
+  <ForwardRef(Table)
+    aria-label="simple table"
+    className="gameInfoPlayersTable"
+    sx={
+      Object {
+        "maxWidth": 1000,
+        "minWidth": 650,
+      }
+    }
+  >
+    <ForwardRef(TableHead)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          colspan="7"
+          id="content-table-team-img"
+        >
+          <img
+            alt="Logo Team"
+            className="team-img"
+            src="https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png"
+          />
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+    </ForwardRef(TableHead)>
+    <ForwardRef(TableBody)
+      key="table-key"
+    >
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Player
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Role
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Min
+          </strong>
+           ⏱
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Pts
+          </strong>
+           🏀
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Reb
+          </strong>
+           🤾🏽
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Ast
+          </strong>
+           ⛹🏽‍♂️
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          className="selectable-team"
+          id="content-table-info"
+          onClick={[Function]}
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          De'Andre
+           
+          Hunter
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          SF
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          32:54
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          26
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          2
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          0
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          className="selectable-team"
+          id="content-table-info"
+          onClick={[Function]}
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          Danilo
+           
+          Gallinari
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          -
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          15:33
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          7
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          3
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          1
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow) />
+    </ForwardRef(TableBody)>
+  </ForwardRef(Table)>
+</ForwardRef(TableContainer)>
+`;
+
+exports[`Snapshots testing GameInfoPlayers renders correctly when there is data for 'visitors' team 1`] = `
+<ForwardRef(TableContainer)>
+  <ForwardRef(Table)
+    aria-label="simple table"
+    className="gameInfoPlayersTable"
+    sx={
+      Object {
+        "maxWidth": 1000,
+        "minWidth": 650,
+      }
+    }
+  >
+    <ForwardRef(TableHead)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          colspan="7"
+          id="content-table-team-img"
+        >
+          <img
+            alt="Logo Team"
+            className="team-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+          />
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+    </ForwardRef(TableHead)>
+    <ForwardRef(TableBody)
+      key="table-key"
+    >
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Player
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Role
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Min
+          </strong>
+           ⏱
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Pts
+          </strong>
+           🏀
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Reb
+          </strong>
+           🤾🏽
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-header"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          <strong>
+            Ast
+          </strong>
+           ⛹🏽‍♂️
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          className="selectable-team"
+          id="content-table-info"
+          onClick={[Function]}
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          Blake
+           
+          Griffin
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          C
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          30:49
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          7
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          7
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          5
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          className="selectable-team"
+          id="content-table-info"
+          onClick={[Function]}
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          Joe
+           
+          Harris
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          SG
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          34:27
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          18
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          6
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="content-table-info"
+          style={
+            Object {
+              "maxWidth": 20,
+              "minWidth": 10,
+            }
+          }
+        >
+          0
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow) />
+    </ForwardRef(TableBody)>
+  </ForwardRef(Table)>
+</ForwardRef(TableContainer)>
+`;
+
+exports[`Snapshots testing GameInfoPlayers renders correctly when there is no data 1`] = `
+<p
+  className="no-data-message"
+>
+  Players statistics not currently available
+</p>
+`;

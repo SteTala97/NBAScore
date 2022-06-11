@@ -1,0 +1,815 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots testing GamesPerTeam renders correctly 1`] = `
+<Fragment>
+  <GamesPerTeamNavbar
+    games={Array []}
+    gamesError={null}
+    searchStarted={false}
+    season={0}
+    seasonError={null}
+    seasons={Array []}
+    setGames={[Function]}
+    setGamesError={[Function]}
+    setSearchStarted={[Function]}
+    setSeason={[Function]}
+    setSeasonError={[Function]}
+    setSeasons={[Function]}
+    setTeam={[Function]}
+    setTeamError={[Function]}
+    setTeams={[Function]}
+    team=""
+    teamError={null}
+    teams={Array []}
+  />
+  <GamesPerTeamTable
+    games={Array []}
+    gamesError={null}
+    searchStarted={false}
+    season={0}
+    seasonError={null}
+    seasons={Array []}
+    setButtonClicked={[Function]}
+    setGameId={[Function]}
+    setGames={[Function]}
+    setGamesError={[Function]}
+    setSearchStarted={[Function]}
+    setSeason={[Function]}
+    setSeasonError={[Function]}
+    setSeasons={[Function]}
+    setTeam={[Function]}
+    setTeamError={[Function]}
+    setTeams={[Function]}
+    team=""
+    teamError={null}
+    teams={Array []}
+  />
+</Fragment>
+`;
+
+exports[`Snapshots testing GamesPerTeamMatch renders correctly for 'finished' game 1`] = `
+<ForwardRef(TableRow)
+  sx={
+    Object {
+      "&:last-child td, &:last-child th": Object {
+        "border": 0,
+      },
+    }
+  }
+>
+  <ForwardRef(TableCell)
+    align="center"
+    component="th"
+    id="content-table-type"
+    scope="row"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    Finished
+    <ForwardRef(Box)
+      sx={
+        Object {
+          "width": "10vh",
+        }
+      }
+    >
+      <Progress
+        typeGame="Finished"
+      />
+    </ForwardRef(Box)>
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="right"
+    id="content-table-logo"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src="https://upload.wikimedia.org/wikipedia/fr/thumb/b/b8/Mavericks_de_Dallas_logo.svg/150px-Mavericks_de_Dallas_logo.svg.png"
+    />
+    <br />
+    <br />
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src="https://upload.wikimedia.org/wikipedia/fr/5/56/Phoenix_Suns_2013.png"
+    />
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="left"
+    id="content-table-name"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <div
+      className="team-text selectable-team"
+      id="content-team-name"
+      onClick={[Function]}
+    >
+      Dallas Mavericks
+    </div>
+    <br />
+    <br />
+    <br />
+    <div
+      className="team-text selectable-team"
+      id="content-team-name"
+      onClick={[Function]}
+    >
+      Phoenix Suns
+    </div>
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-score"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    100
+    <br />
+    <br />
+    <br />
+    110
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-date"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  />
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-quarter"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    4
+     of 
+    4
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-pointsPerQuarter"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    [
+     30 
+     20 
+     35 
+     22 
+    ]
+    <br />
+    <br />
+    <br />
+    [
+     36 
+     25 
+     36 
+     24 
+    ]
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-button"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    <div>
+      <ForwardRef(Button)
+        className="more-info-button"
+        color="success"
+        endIcon={
+          <Memo
+            fontSize="medium"
+          />
+        }
+        onClick={[Function]}
+        variant="contained"
+      >
+        More Info
+      </ForwardRef(Button)>
+    </div>
+  </ForwardRef(TableCell)>
+</ForwardRef(TableRow)>
+`;
+
+exports[`Snapshots testing GamesPerTeamMatch renders correctly for 'in play' game 1`] = `
+<ForwardRef(TableRow)
+  sx={
+    Object {
+      "&:last-child td, &:last-child th": Object {
+        "border": 0,
+      },
+    }
+  }
+>
+  <ForwardRef(TableCell)
+    align="center"
+    component="th"
+    id="content-table-type"
+    scope="row"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    In Play
+    <ForwardRef(Box)
+      sx={
+        Object {
+          "width": "10vh",
+        }
+      }
+    >
+      <Progress
+        typeGame="In Play"
+      />
+    </ForwardRef(Box)>
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="right"
+    id="content-table-logo"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src="https://upload.wikimedia.org/wikipedia/fr/4/48/76ers_2016.png"
+    />
+    <br />
+    <br />
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src="https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Miami_Heat_-_Logo.svg/1200px-Miami_Heat_-_Logo.svg.png"
+    />
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="left"
+    id="content-table-name"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <div
+      className="team-text selectable-team"
+      id="content-team-name"
+      onClick={[Function]}
+    >
+      Philadelphia 76ers
+    </div>
+    <br />
+    <br />
+    <br />
+    <div
+      className="team-text selectable-team"
+      id="content-team-name"
+      onClick={[Function]}
+    >
+      Miami Heat
+    </div>
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-score"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    15
+    <br />
+    <br />
+    <br />
+    21
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-date"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  />
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-quarter"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    1
+     of 
+    4
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-pointsPerQuarter"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    [
+     15 
+     0 
+     0 
+     0 
+    ]
+    <br />
+    <br />
+    <br />
+    [
+     21 
+     0 
+     0 
+     0 
+    ]
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-button"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    <div>
+      <ForwardRef(Button)
+        className="more-info-button"
+        color="success"
+        endIcon={
+          <Memo
+            fontSize="medium"
+          />
+        }
+        onClick={[Function]}
+        variant="contained"
+      >
+        More Info
+      </ForwardRef(Button)>
+    </div>
+  </ForwardRef(TableCell)>
+</ForwardRef(TableRow)>
+`;
+
+exports[`Snapshots testing GamesPerTeamMatch renders correctly for 'scheduled' game 1`] = `
+<ForwardRef(TableRow)
+  sx={
+    Object {
+      "&:last-child td, &:last-child th": Object {
+        "border": 0,
+      },
+    }
+  }
+>
+  <ForwardRef(TableCell)
+    align="center"
+    component="th"
+    id="content-table-type"
+    scope="row"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    Scheduled
+    <ForwardRef(Box)
+      sx={
+        Object {
+          "width": "10vh",
+        }
+      }
+    >
+      <Progress
+        typeGame="Scheduled"
+      />
+    </ForwardRef(Box)>
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="right"
+    id="content-table-logo"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src="https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Warriors_de_Golden_State_logo.svg/1200px-Warriors_de_Golden_State_logo.svg.png"
+    />
+    <br />
+    <br />
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src="https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
+    />
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="left"
+    id="content-table-name"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <div
+      className="team-text selectable-team"
+      id="content-team-name"
+      onClick={[Function]}
+    >
+      Golden State Warriors
+    </div>
+    <br />
+    <br />
+    <br />
+    <div
+      className="team-text selectable-team"
+      id="content-team-name"
+      onClick={[Function]}
+    >
+      Boston Celtics
+    </div>
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-score"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+     - 
+    <br />
+    <br />
+    <br />
+     - 
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-date"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  />
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-quarter"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    0
+     of 
+    4
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-pointsPerQuarter"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    [
+       -   -   -   -   
+    ]
+    <br />
+    <br />
+    <br />
+    [
+       -   -   -   -   
+    ]
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-button"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    <div>
+      <ForwardRef(Button)
+        className="more-info-button"
+        color="success"
+        endIcon={
+          <Memo
+            fontSize="medium"
+          />
+        }
+        onClick={[Function]}
+        variant="contained"
+      >
+        More Info
+      </ForwardRef(Button)>
+    </div>
+  </ForwardRef(TableCell)>
+</ForwardRef(TableRow)>
+`;
+
+exports[`Snapshots testing GamesPerTeamNavbar renders correctly 1`] = `
+<div
+  className="search-menu"
+>
+  <form
+    className="select"
+  >
+    <select
+      data-testid="teamToSearch"
+      id="teamToSearch"
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        selected={true}
+        value=""
+      >
+        Select Team
+      </option>
+      <option />
+      <option />
+      <option />
+      <option />
+      <option />
+      <option />
+    </select>
+  </form>
+  <form
+    className="select"
+  >
+    <select
+      data-testid="seasonToSearch"
+      id="seasonToSearch"
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        selected={true}
+        value=""
+      >
+        Select Season
+      </option>
+      <option
+        value="2015"
+      >
+        2015
+      </option>
+      <option
+        value="2016"
+      >
+        2016
+      </option>
+      <option
+        value="2017"
+      >
+        2017
+      </option>
+      <option
+        value="2018"
+      >
+        2018
+      </option>
+      <option
+        value="2019"
+      >
+        2019
+      </option>
+      <option
+        value="2020"
+      >
+        2020
+      </option>
+      <option
+        value="2021"
+      >
+        2021
+      </option>
+    </select>
+  </form>
+  <button
+    className="search-button"
+    onClick={[Function]}
+  >
+    Search
+  </button>
+</div>
+`;
+
+exports[`Snapshots testing GamesPerTeamTable renders correctly 1`] = `
+<ForwardRef(TableContainer)
+  className="GamesPerTeamTableContainer"
+>
+  <ForwardRef(Table)
+    aria-label="simple table"
+    className="GamesPerTeamTable"
+    id="table"
+    sx={
+      Object {
+        "maxWidth": 1000,
+        "minWidth": 650,
+      }
+    }
+  >
+    <ForwardRef(TableHead)>
+      <ForwardRef(TableRow)
+        key="1"
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          id="title-table-type"
+        >
+          <strong>
+            Status
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          colSpan={2}
+          id="title-table-teams"
+        >
+          <strong>
+            Teams
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="title-table-points"
+        >
+          <strong>
+            Points
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="title-table-time"
+        >
+          <strong>
+            Date
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="title-table-time"
+        >
+          <strong>
+            Quarter
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="title-table-linescore"
+        >
+          <strong>
+            Points per Quarter
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          id="title-table-button"
+        >
+               
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+    </ForwardRef(TableHead)>
+    <ForwardRef(TableBody)>
+      <GamesPerTeamMatch
+        data={
+          Object {
+            "currentPeriods": 4,
+            "id": 1,
+            "linescoreHome": Array [
+              "30",
+              "20",
+              "35",
+              "22",
+            ],
+            "linescoreVisitors": Array [
+              "36",
+              "25",
+              "36",
+              "24",
+            ],
+            "teamLogoHome": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b8/Mavericks_de_Dallas_logo.svg/150px-Mavericks_de_Dallas_logo.svg.png",
+            "teamLogoVisitors": "https://upload.wikimedia.org/wikipedia/fr/5/56/Phoenix_Suns_2013.png",
+            "teamNameHome": "Dallas Mavericks",
+            "teamNameVisitors": "Phoenix Suns",
+            "teamScoreHome": 100,
+            "teamScoreVisitors": 110,
+            "totalPeriods": 4,
+            "typeGame": "Finished",
+          }
+        }
+        key="1"
+      />
+      <GamesPerTeamMatch
+        data={
+          Object {
+            "currentPeriods": 0,
+            "id": 2,
+            "linescoreHome": Array [],
+            "linescoreVisitors": Array [],
+            "teamLogoHome": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Warriors_de_Golden_State_logo.svg/1200px-Warriors_de_Golden_State_logo.svg.png",
+            "teamLogoVisitors": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png",
+            "teamNameHome": "Golden State Warriors",
+            "teamNameVisitors": "Boston Celtics",
+            "teamScoreHome": null,
+            "teamScoreVisitors": null,
+            "totalPeriods": 4,
+            "typeGame": "Scheduled",
+          }
+        }
+        key="2"
+      />
+      <GamesPerTeamMatch
+        data={
+          Object {
+            "currentPeriods": 1,
+            "id": 3,
+            "linescoreHome": Array [
+              "15",
+              "0",
+              "0",
+              "0",
+            ],
+            "linescoreVisitors": Array [
+              "21",
+              "0",
+              "0",
+              "0",
+            ],
+            "teamLogoHome": "https://upload.wikimedia.org/wikipedia/fr/4/48/76ers_2016.png",
+            "teamLogoVisitors": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Miami_Heat_-_Logo.svg/1200px-Miami_Heat_-_Logo.svg.png",
+            "teamNameHome": "Philadelphia 76ers",
+            "teamNameVisitors": "Miami Heat",
+            "teamScoreHome": 15,
+            "teamScoreVisitors": 21,
+            "totalPeriods": 4,
+            "typeGame": "In Play",
+          }
+        }
+        key="3"
+      />
+      <ForwardRef(TableRow) />
+    </ForwardRef(TableBody)>
+  </ForwardRef(Table)>
+</ForwardRef(TableContainer)>
+`;

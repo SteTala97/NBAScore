@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots testing PlayerInfo renders correctly 1`] = `
+<Fragment>
+  <PlayerInfoTable
+    playerInfo=""
+    setViewteamInfo={[Function]}
+    teamInfo={Object {}}
+  />
+</Fragment>
+`;
+
+exports[`Snapshots testing PlayerInfoTable renders correctly when player data is missing 1`] = `
+<div
+  className="no-info-message"
+>
+  Currently there is no info available about the selected player
+</div>
+`;
+
+exports[`Snapshots testing PlayerInfoTable renders correctly when team data is missing 1`] = `
+<ForwardRef(TableContainer)>
+  <ForwardRef(Table)
+    aria-label="simple table"
+    className="playerTable"
+    sx={
+      Object {
+        "maxWidth": 550,
+        "minWidth": 400,
+      }
+    }
+  >
+    <ForwardRef(TableHead)>
+      <ForwardRef(TableRow)
+        key="1"
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          className="title"
+          colSpan={2}
+          id="title-table-header"
+          style={
+            Object {
+              "fontSize": "x-large",
+            }
+          }
+        >
+          <strong>
+            LeBron
+             
+            James
+          </strong>
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+    </ForwardRef(TableHead)>
+    <ForwardRef(TableBody)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="left"
+          id="content-table-info"
+        >
+          🌎 Country: 
+          <strong>
+            USA
+          </strong>
+          <br />
+          📆 Birth date: 
+          <strong>
+            1984-12-30
+          </strong>
+          <br />
+          ⏳  Age: 
+          <strong>
+            37
+          </strong>
+          <br />
+          📏 Height: 
+          <strong>
+            2.06m
+          </strong>
+          <br />
+          💪🏽 Weight: 
+          <strong>
+            113.4Kg
+          </strong>
+          <br />
+          #️⃣  Jersey number: 
+          <strong>
+            6
+          </strong>
+          <br />
+          ⛹🏽‍♂️  Role: 
+          <strong>
+            F
+          </strong>
+          <br />
+          📅 NBA debut: 
+          <strong>
+            2003
+          </strong>
+          <br />
+          🎓 College: 
+          <strong>
+            St. Vincent-St. Mary HS (OH)
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          className="selectable-team"
+          id="content-table-info"
+          onClick={[Function]}
+        >
+          <img
+            alt="Team Logo"
+            className="player-team-logo"
+            src=""
+          />
+          <br />
+          🏀 Team: 
+          <strong>
+            NA
+          </strong>
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow) />
+    </ForwardRef(TableBody)>
+  </ForwardRef(Table)>
+</ForwardRef(TableContainer)>
+`;
+
+exports[`Snapshots testing PlayerInfoTable renders correctly when there is data 1`] = `
+<ForwardRef(TableContainer)>
+  <ForwardRef(Table)
+    aria-label="simple table"
+    className="playerTable"
+    sx={
+      Object {
+        "maxWidth": 550,
+        "minWidth": 400,
+      }
+    }
+  >
+    <ForwardRef(TableHead)>
+      <ForwardRef(TableRow)
+        key="1"
+      >
+        <ForwardRef(TableCell)
+          align="center"
+          className="title"
+          colSpan={2}
+          id="title-table-header"
+          style={
+            Object {
+              "fontSize": "x-large",
+            }
+          }
+        >
+          <strong>
+            LeBron
+             
+            James
+          </strong>
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+    </ForwardRef(TableHead)>
+    <ForwardRef(TableBody)>
+      <ForwardRef(TableRow)
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          align="left"
+          id="content-table-info"
+        >
+          🌎 Country: 
+          <strong>
+            USA
+          </strong>
+          <br />
+          📆 Birth date: 
+          <strong>
+            1984-12-30
+          </strong>
+          <br />
+          ⏳  Age: 
+          <strong>
+            37
+          </strong>
+          <br />
+          📏 Height: 
+          <strong>
+            2.06m
+          </strong>
+          <br />
+          💪🏽 Weight: 
+          <strong>
+            113.4Kg
+          </strong>
+          <br />
+          #️⃣  Jersey number: 
+          <strong>
+            6
+          </strong>
+          <br />
+          ⛹🏽‍♂️  Role: 
+          <strong>
+            F
+          </strong>
+          <br />
+          📅 NBA debut: 
+          <strong>
+            2003
+          </strong>
+          <br />
+          🎓 College: 
+          <strong>
+            St. Vincent-St. Mary HS (OH)
+          </strong>
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="center"
+          className="selectable-team"
+          id="content-table-info"
+          onClick={[Function]}
+        >
+          <img
+            alt="Team Logo"
+            className="player-team-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png"
+          />
+          <br />
+          🏀 Team: 
+          <strong>
+            Los Angeles Lakers
+          </strong>
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow) />
+    </ForwardRef(TableBody)>
+  </ForwardRef(Table)>
+</ForwardRef(TableContainer)>
+`;
+
+exports[`Snapshots testing PlayerInfoTable renders correctly when there is no data 1`] = `
+<div
+  className="no-info-message"
+>
+  Currently there is no info available about the selected player
+</div>
+`;

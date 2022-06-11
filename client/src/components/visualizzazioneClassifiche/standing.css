@@ -1,0 +1,18 @@
+.standingTable{
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.team-logo {
+  height: 50px;
+}
+
+.no-data-message {
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,91 @@
+/* STANDING DROP-DOWN MENU STYLE */
+
+:root {
+  /* --gray: #00db00; */
+  --darkgray: #C9082A; /* Parte sinistra select box */
+}
+
+select {
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  appearance: none;
+  font-weight: 600;
+  font-size: 16px;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  flex: 1;
+  padding: 0 1em;
+  color: #fff;
+  background-color: var(--darkgray);
+  background-image: none;
+  cursor: pointer;
+}
+
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select wrapper */
+.select {
+  margin-right: 30px;
+  position: relative;
+  display: flex;
+  width: 220px;
+  height: 3em;
+  border-radius: .25rem;
+  overflow: hidden;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  background-color: #C9082A; /* Freccia a destra */
+  transition: .25s all ease;
+  pointer-events: none;
+}
+/* Transition */
+.select:hover::after {
+  color: #ffffff;
+}
+
+option { 
+  font-size:16px;
+}
+
+.search-menu {
+  margin-top: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.search-button {
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+align-items: center;
+background-color: #C9082A;
+border: 1px solid transparent;
+border-radius: .25rem;
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-flex;
+font-weight: 600;
+justify-content: center;
+line-height: 1.25;
+min-height: 3rem;
+padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+position: relative;
+text-decoration: none;
+transition: all 250ms;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+width: auto;
+}
+/* END DROP-DOWN MENU STYLE */

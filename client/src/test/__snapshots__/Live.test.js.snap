@@ -1,0 +1,537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test degli Snapshot Rendering del comp. Match con TeamInfo 1`] = `
+<ForwardRef(TableRow)
+  sx={
+    Object {
+      "&:last-child td, &:last-child th": Object {
+        "border": 0,
+      },
+    }
+  }
+>
+  <ForwardRef(TableCell)
+    align="center"
+    component="th"
+    id="content-table-type"
+    scope="row"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    Finished
+    <ForwardRef(Box)
+      sx={
+        Object {
+          "width": "10vh",
+        }
+      }
+    >
+      <Progress
+        typeGame="Finished"
+      />
+    </ForwardRef(Box)>
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="right"
+    id="content-table-logo"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src=""
+    />
+    <br />
+    <br />
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src=""
+    />
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="left"
+    id="content-table-name"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <Team
+      name="Team 1"
+    />
+    <br />
+    <br />
+    <br />
+    <Team
+      name="Team 2"
+    />
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-score"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    23
+    <br />
+    <br />
+    <br />
+    40
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-time"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  />
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-quarter"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    4
+     of 
+    4
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-pointsPerQuarter"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    [
+     36 
+     25 
+     36 
+     24 
+    ]
+    <br />
+    <br />
+    <br />
+    [
+     36 
+     25 
+     36 
+     24 
+    ]
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-button"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    <div>
+      <ForwardRef(Button)
+        className="more-info-button"
+        color="success"
+        endIcon={
+          <Memo
+            fontSize="medium"
+          />
+        }
+        onClick={[Function]}
+        variant="contained"
+      >
+        More Info
+      </ForwardRef(Button)>
+    </div>
+  </ForwardRef(TableCell)>
+</ForwardRef(TableRow)>
+`;
+
+exports[`Test degli Snapshot Rendering del comp. Match correttamente 1`] = `
+<ForwardRef(TableRow)
+  sx={
+    Object {
+      "&:last-child td, &:last-child th": Object {
+        "border": 0,
+      },
+    }
+  }
+>
+  <ForwardRef(TableCell)
+    align="center"
+    component="th"
+    id="content-table-type"
+    scope="row"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    Finished
+    <ForwardRef(Box)
+      sx={
+        Object {
+          "width": "10vh",
+        }
+      }
+    >
+      <Progress
+        typeGame="Finished"
+      />
+    </ForwardRef(Box)>
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="right"
+    id="content-table-logo"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src=""
+    />
+    <br />
+    <br />
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src=""
+    />
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="left"
+    id="content-table-name"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <Team
+      name="Team 1"
+    />
+    <br />
+    <br />
+    <br />
+    <Team
+      name="Team 2"
+    />
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-score"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    23
+    <br />
+    <br />
+    <br />
+    40
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-time"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  />
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-quarter"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    4
+     of 
+    4
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-pointsPerQuarter"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    [
+     36 
+     25 
+     36 
+     24 
+    ]
+    <br />
+    <br />
+    <br />
+    [
+     36 
+     25 
+     36 
+     24 
+    ]
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-button"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    <div>
+      <ForwardRef(Button)
+        className="more-info-button"
+        color="success"
+        endIcon={
+          <Memo
+            fontSize="medium"
+          />
+        }
+        onClick={[Function]}
+        variant="contained"
+      >
+        More Info
+      </ForwardRef(Button)>
+    </div>
+  </ForwardRef(TableCell)>
+</ForwardRef(TableRow)>
+`;
+
+exports[`Test degli Snapshot Rendering del comp. Match senza passare dati 1`] = `
+<ForwardRef(TableRow)
+  sx={
+    Object {
+      "&:last-child td, &:last-child th": Object {
+        "border": 0,
+      },
+    }
+  }
+>
+  <ForwardRef(TableCell)
+    align="center"
+    component="th"
+    id="content-table-type"
+    scope="row"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    <ForwardRef(Box)
+      sx={
+        Object {
+          "width": "10vh",
+        }
+      }
+    >
+      <Progress
+        typeGame=""
+      />
+    </ForwardRef(Box)>
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="right"
+    id="content-table-logo"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src={null}
+    />
+    <br />
+    <br />
+    <img
+      alt="Logo Team"
+      className="team-logo selectable-team"
+      onClick={[Function]}
+      src={null}
+    />
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="left"
+    id="content-table-name"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <Team
+      name={null}
+    />
+    <br />
+    <br />
+    <br />
+    <Team
+      name={null}
+    />
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-score"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+     - 
+    <br />
+    <br />
+    <br />
+     - 
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-time"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  />
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-quarter"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+     of 
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-pointsPerQuarter"
+    sx={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    [
+       -   -   -   -   
+    ]
+    <br />
+    <br />
+    <br />
+    [
+       -   -   -   -   
+    ]
+  </ForwardRef(TableCell)>
+  <ForwardRef(TableCell)
+    align="center"
+    id="content-table-button"
+    sx={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    <div>
+      <ForwardRef(Button)
+        className="more-info-button"
+        color="success"
+        endIcon={
+          <Memo
+            fontSize="medium"
+          />
+        }
+        onClick={[Function]}
+        variant="contained"
+      >
+        More Info
+      </ForwardRef(Button)>
+    </div>
+  </ForwardRef(TableCell)>
+</ForwardRef(TableRow)>
+`;
+
+exports[`Test degli Snapshot Rendering del comp. Team senza passare valori 1`] = `
+<div
+  className="team-text"
+  id="content-team-name"
+>
+  <div
+    className="selectable-team"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`Test degli Snapshot Rendering del componente Live con TeamInfo 1`] = `
+<CheckEmpty
+  callDone={false}
+  teamClicked={true}
+  teamName="Miami Heat"
+  totalGames={Array []}
+/>
+`;
+
+exports[`Test degli Snapshot Rendering del componente Live correttamente 1`] = `
+<CheckEmpty
+  callDone={false}
+  teamClicked={false}
+  teamName=""
+  totalGames={Array []}
+/>
+`;
+
+exports[`Test degli Snapshot Rendering del componente Team correttamente 1`] = `
+<div
+  className="team-text"
+  id="content-team-name"
+>
+  <div
+    className="selectable-team"
+    onClick={[Function]}
+  >
+    Team 1
+  </div>
+</div>
+`;

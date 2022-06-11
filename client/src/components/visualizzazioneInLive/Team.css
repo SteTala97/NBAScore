@@ -1,0 +1,4 @@
+.team-text {
+  max-width: 25vh; /* 25% del totale*/ 
+  justify-content: center;
+}

@@ -1,0 +1,28 @@
+.results-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 50px;
+}
+
+.results-conference {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+.team-logo-result{
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    margin-right: 40px;
+}
+
+.teamName-title {
+    margin-right: 30px;
+    position: relative;
+    display: flex;
+}

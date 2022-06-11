@@ -1,0 +1,17 @@
+.playerTable{
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  }
+
+
+.player-team-logo {
+  height: 125px;
+}
+
+
+.no-info-message{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 150px;
+}
