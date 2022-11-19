@@ -12,7 +12,7 @@ A more detailed description can be found in the docs [docs/GeneralDoc.md](https:
 - Talamona Stefano
 
 
-## A few features
+## A few features:
 Live update of the games in play:
 
 ![](https://github.com/SteTala97/NBAScore/blob/main/demo/live_update.gif)
