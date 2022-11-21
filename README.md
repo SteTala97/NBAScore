@@ -24,4 +24,4 @@ Standings visualization for given year and conference:
 ![](https://github.com/SteTala97/NBAScore/blob/main/demo/standings.jpg)
 
 Search player by name:
-![](https://github.com/SteTala97/NBAScore/blob/main/demo/standings.jpg)
+![](https://github.com/SteTala97/NBAScore/blob/main/demo/players.jpg)
